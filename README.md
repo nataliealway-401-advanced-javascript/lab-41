@@ -37,6 +37,8 @@
  * expo-image-manipulator
  * react-native-image-slider-box
 
+ ![mainPage](./assets/screenshots/mpss.png)
+ ![catPage](./assets/screenshots/ss2.png)
 
 
 
