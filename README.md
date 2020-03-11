@@ -1,6 +1,6 @@
 # Lab 41: The Everything App
 
-## Authors: Natalie Alway and Davis Vloedmen
+## Authors: Natalie Alway and David Vloedman!
 
 ## How to use the app:
 * Clone this repo
