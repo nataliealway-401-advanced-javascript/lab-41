@@ -4,10 +4,15 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { SliderBox } from 'react-native-image-slider-box';
 
 export default function LinksScreen(){
+
+  let status = '';
+  React.useEffect(()=>{
+    status = getState();
+  });
   return(
     
     <View style={styles.theme}>
-      <Text style={styles.text}>{getState()}</Text>
+      <Text style={styles.text}>{status}</Text>
       <SliderBox 
       images={data} 
       sliderBoxHeight={'90%'} 
